@@ -6,11 +6,11 @@ require 'unidom/property/version'
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
   spec.name        = 'unidom-property'
-  spec.version     = ::Unidom::Property::VERSION
+  spec.version     = Unidom::Property::VERSION
   spec.authors     = [ 'Topbit Du' ]
   spec.email       = [ 'topbit.du@gmail.com' ]
   spec.homepage    = 'https://github.com/topbitdu/unidom-property'
-  spec.summary     = 'The Property domain model engine includes Estate, Building, and Room models.'
+  spec.summary     = 'Unidom Property Domain Model Engine 资产领域模型引擎'
   spec.description = 'Unidom (UNIfied Domain Object Model) is a series of domain model engines. The Property domain model engine includes Estate, Building, and Room models. Unidom (统一领域对象模型)是一系列的领域模型引擎。资产领域模型引擎包括楼盘、建筑和房间的模型。'
   spec.license     = 'MIT'
 

@@ -1,6 +1,7 @@
 # Unidom Property 资产领域模型引擎
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
+[![Gem Version](https://badge.fury.io/rb/unidom-property.svg)](https://badge.fury.io/rb/unidom-property)
 [![Dependency Status](https://gemnasium.com/badges/github.com/topbitdu/unidom-property.svg)](https://gemnasium.com/github.com/topbitdu/unidom-property)
 
 Unidom (UNIfied Domain Object Model) is a series of domain model engines. The Property domain model engine includes Estate, Building, and Room models.

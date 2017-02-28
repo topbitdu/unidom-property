@@ -40,3 +40,17 @@ The migration versions start with 200105.
 ```ruby
 Unidom::Property::Estate.valid_at.alive.first
 ```
+
+## Disable the Model & Migration
+
+If you only need the app components other than models, the migrations should be neglected, and the models should not be loaded.
+```ruby
+# config/initializers/unidom.rb
+Unidom::Common.configure do |options|
+
+  options[:neglected_namespaces] = %w{
+    Unidom::Property
+  }
+
+end
+```
